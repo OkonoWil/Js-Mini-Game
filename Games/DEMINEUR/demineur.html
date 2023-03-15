@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title> DEMINEUR 💣 </title> 
+		<meta  name="author" content="Theo COLIN" >
+		<link href="style.css" rel="stylesheet">
+		<script type="text/javascript" src="demineur.js"></script>
+		<script type="text/javascript" src="json.js"></script>
+		
+	</head>
+
+	<body onload="init();" onkeydown="clavier();">
+	<div id="ensemble" >
+		<div id="commandes" >
+			<button  id="boutton" type="button" value="Recommencer" onclick="grille();">Recommencer</button>
+			<input id="label" value="numéro de table :" disabled> </input><input	type="number" min="0" max="10" step="1" value="0" name="numero" id="numero"></input>
+		</div>
+		
+		<div id="partie_principale"> 
+		
+		</div>
+		<div id="information">
+			<h2>Informations</h2>
+			<div id="difficulte"> Difficulté :</div>
+			<div id="createur"> Créateur :</div>
+			<div id="date_creation"> Date de création :</div>
+			<div id="statut"> Statut de la Partie : </div>
+			<div id="mines"> Mines restantes : </div>
+		</div>
+		
+		<div id="pop_up_win">  Vous avez gagné !! </div><br/>
+		<div id="pop_up_loose">  Vous avez perdu </div><br/>
+		<div id="pop_up_mines"> Vous avez marqué plus de mines qu'il y'en a   </div>
+	</div>
+	</body>
+
+</html>

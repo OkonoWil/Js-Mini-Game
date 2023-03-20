@@ -5,34 +5,41 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+:root{
+  --main-color: #ffb43a;
+  --hover-color: hsl(37,94%,57%);
+  --body-color: #1e1e2a;
+  --container-color: #2d2e37;
+  --text-color: #fcfeff;
+}
 body{
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #f2f2f2;
+  background: var(--body-color);
   position: relative;
 }
 body::before{
   content: '';
   position: absolute;
   width: 100%;
-  background: #FF676D;
+  background: var(--body-color);
   clip-path: inset(47% 0 0 0);
   z-index: -1;
   height: 100%;
 }
 ::selection{
-  background:	#FF676D;
+  background:	var(--main-color);
   color: #fff;
 }
-.container{
+.containerAbout{
   max-width: 950px;
   width: 100%;
   overflow: hidden;
   padding: 80px 0;
 }
-.container .main-card{
+.containerAbout .main-card{
   display: flex;
   justify-content: space-evenly;
   width: 200%;
@@ -41,7 +48,7 @@ body::before{
 #two:checked ~ .main-card{
   margin-left: -100%;
 }
-.container .main-card .cards{
+.containerAbout .main-card .cards{
   width: calc(100% / 2 - 10px);
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +57,7 @@ body::before{
 }
 .main-card .cards .card{
   width: calc(100% / 3 - 10px);
-  background: #fff;
+  background: var(--container-color);
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
@@ -72,13 +79,13 @@ body::before{
   width: 130px;
   border-radius: 50%;
   padding: 3px;
-  background: #FF676D;
+  background: var(--main-color);
   margin-bottom: 14px;
 }
 .card .content .img img{
   height: 100%;
   width: 100%;
-  border: 3px solid #ffff;
+  border: 1px solid transparent;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -88,7 +95,7 @@ body::before{
 }
 .card .content .job{
   font-size: 20px;
-  color: #FF676D;
+  color: var(--main-color);
 }
 .card .content .media-icons{
   margin-top: 10px;
@@ -105,15 +112,15 @@ body::before{
   color: #FFF;
   border-radius: 50%;
   border: 2px solid transparent;
-  background: #FF676D;
+  background: var(--main-color);
   transition: all 0.3s ease;
 }
 .media-icons a:hover{
-  color: #FF676D;
+  color: var(--main-color);
   background-color: #fff;
-  border-color: #FF676D;
+  border-color: var(--main-color);
 }
- .container .button{
+ .containerAbout .button{
   width: 100%;
   display: flex;
   justify-content: center;

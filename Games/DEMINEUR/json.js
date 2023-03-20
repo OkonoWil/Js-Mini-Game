@@ -10,8 +10,8 @@ var donneesPartie1 = {
               [0, 1, 9, 2, 1, 0, 0, 0, 1, 1],
               [0, 1, 2, 9, 1, 0, 0, 0, 0, 0]],
   'difficulte': 'moyenne',
-  'dateCreation': '24/04/2020',
-  'nomCreateur': 'Théo'
+  'dateCreation': '10/03/2023',
+  'nomCreateur': 'Okono'
 };
 
 var donneesPartie2 = {
@@ -20,9 +20,9 @@ var donneesPartie2 = {
               [0, 1, 9, 9, 1],
               [0, 1, 2, 2, 1],
               [0, 0, 0, 0, 0]],
-  'difficulte': 'trÃ¨s facile',
-  'dateCreation': '23/04/2020',
-  'nomCreateur': 'Théo'
+  'difficulte': 'très facile',
+  'dateCreation': '10/03/2023',
+  'nomCreateur': 'Okono'
 };
 
 var donneesPartie3 = {
@@ -32,8 +32,8 @@ var donneesPartie3 = {
               [1, 2, 2, 1, 0],
               [1, 9, 1, 0, 0]],
   'difficulte': 'facile',
-  'dateCreation': '21/04/2020',
-  'nomCreateur': 'Théo'
+  'dateCreation': '10/03/2023',
+  'nomCreateur': 'Okono'
 };
 
 var partie_regroup =[{ 'plateau': [[1, 1, 2, 1, 1, 0, 0, 1, 1, 1],
@@ -47,8 +47,8 @@ var partie_regroup =[{ 'plateau': [[1, 1, 2, 1, 1, 0, 0, 1, 1, 1],
 					[0, 1, 9, 2, 1, 0, 0, 0, 1, 1],
 					[0, 1, 2, 9, 1, 0, 0, 0, 0, 0]],
 					'difficulte': 'moyenne',
-					'dateCreation': '24/04/2020',
-					'nomCreateur': 'Théo'
+					'dateCreation': '10/03/2023',
+					'nomCreateur': 'Okono'
 					},
 					{'plateau': [[0, 0, 0, 0, 0],
 								[0, 1, 2, 2, 1],
@@ -56,8 +56,8 @@ var partie_regroup =[{ 'plateau': [[1, 1, 2, 1, 1, 0, 0, 1, 1, 1],
 								[0, 1, 2, 2, 1],
 								[0, 0, 0, 0, 0]],
 					'difficulte': 'très facile',
-					'dateCreation': '23/04/2020',
-					'nomCreateur': 'Théo'
+					'dateCreation': '10/03/2023',
+					'nomCreateur': 'Okono'
 					},
 					
 					{'plateau': [[9, 1, 1, 2, 2],
@@ -66,8 +66,8 @@ var partie_regroup =[{ 'plateau': [[1, 1, 2, 1, 1, 0, 0, 1, 1, 1],
 								[1, 2, 2, 1, 0],
 								[1, 9, 1, 0, 0]],
 					'difficulte': 'facile',
-					'dateCreation': '21/04/2020',
-					'nomCreateur': 'Théo'
+					'dateCreation': '10/03/2023',
+					'nomCreateur': 'Okono'
 					
 },
 					{'plateau': [[1, 9, 2, 1, 1],
@@ -76,7 +76,7 @@ var partie_regroup =[{ 'plateau': [[1, 1, 2, 1, 1, 0, 0, 1, 1, 1],
 								[0, 1, 2, 2, 2],
 								[0, 0, 1, 9,9]],
 					'difficulte': 'moyenne',
-					'dateCreation': '19/03/2021',
-					'nomCreateur': 'Théo'
+					'dateCreation': '10/03/2023',
+					'nomCreateur': 'Okono'
 	
 }];

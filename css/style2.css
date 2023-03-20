@@ -42,11 +42,14 @@ body::before{
 .containerAbout .main-card{
   display: flex;
   justify-content: space-evenly;
-  width: 200%;
+  width: 300%;
   transition: 1s;
 }
 #two:checked ~ .main-card{
   margin-left: -100%;
+}
+#tree:checked ~ .main-card{
+  margin-left: -200%;
 }
 .containerAbout .main-card .cards{
   width: calc(100% / 2 - 10px);
@@ -65,6 +68,9 @@ body::before{
 }
 .main-card .cards .card:hover{
   transform: translateY(-15px);
+}
+.main-card .none{
+  justify-content: space-evenly !important;
 }
 .cards .card .content{
   width: 100%;
@@ -144,10 +150,25 @@ body::before{
 #one:checked ~ .button .two{
   width: 15px;
 }
+#one:checked ~ .button .tree{
+  width: 15px;
+}
 #two:checked ~ .button .one{
   width: 15px;
 }
 #two:checked ~ .button .two{
+  width: 35px;
+}
+#two:checked ~ .button .tree{
+  width: 15px;
+}
+#tree:checked ~ .button .one{
+  width: 15px;
+}
+#tree:checked ~ .button .two{
+  width: 15px;
+}
+#tree:checked ~ .button .tree{
   width: 35px;
 }
 input[type="radio"]{

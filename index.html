@@ -1,287 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game store</title>
-    <!-- Link To CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/demo-style.css" />
 
-    <!-- Fav Icon -->
-    <link
-      rel="shortcut icon"
-      href="assets/img/game-ico.ico"
-      type="image/x-icon"
-    />
-    <!-- Box Icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <!-- Nav -->
-      <nav class="nav container">
-        <a href="index.html" class="logo"> Game<span>Store</span> </a>
-        <!-- search Box -->
-        <div class="search-box">
-          <input
-            type="search"
-            name=""
-            id="search-input"
-            placeholder="Search game"
-          />
-          <i class="bx bx-search"></i>
-        </div>
-        <a href="#" class="user">
-          <img src="assets/img/game-ico.ico" alt="pp" class="user-img" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game store</title>
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/demo-style.css" />
+
+  <!-- Fav Icon -->
+  <link rel="shortcut icon" href="assets/img/game-ico.ico" type="image/x-icon" />
+  <!-- Box Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Nav -->
+    <nav class="nav container">
+      <a href="index.html" class="logo"> Game<span>Store</span> </a>
+      <!-- search Box -->
+      <div class="search-box">
+        <input type="search" name="" id="search-input" placeholder="Search game" />
+        <i class="bx bx-search"></i>
+      </div>
+      <a href="#" class="user">
+        <img src="assets/img/game-ico.ico" alt="pp" class="user-img" />
+      </a>
+      <!-- NavBar -->
+      <div class="navbar">
+        <a href="/" class="nav-link nav-active">
+          <i class="bx bx-home"></i>
+          <span class="nav-link-title">Home</span>
         </a>
-        <!-- NavBar -->
-        <div class="navbar">
-          <a href="/" class="nav-link nav-active">
-            <i class="bx bx-home"></i>
-            <span class="nav-link-title">Home</span>
-          </a>
-          <a href="./about-us.html" class="nav-link">
-            <i class="bx bxs-group"></i>
-            <span class="nav-link-title">About Us</span>
-          </a>
-        </div>
-      </nav>
-    </header>
-    <!-- Home -->
-    <section class="home container" id="home">
-      <!-- Home Image -->
-      <img
-        src="./assets/img/home-bg.jpg"
-        alt="Home Background"
-        class="home-img"
-      />
-      <!-- Home Text -->
-      <div class="home-text">
-        <h1>Play with us</h1>
-        <p>8 games available</p>
+        <a href="./about-us.html" class="nav-link">
+          <i class="bx bxs-group"></i>
+          <span class="nav-link-title">About Us</span>
+        </a>
       </div>
-    </section>
-    <!-- Home End -->
-    <!-- Popular Section Start -->
-    <section class="popular container" id="popular">
-      <div class="heading">
-        <h2 class="heading-title">Popular Games</h2>
-        <!-- Swiper Buttons -->
-        <div class="swiper-btn">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
+    </nav>
+  </header>
+  <!-- Home -->
+  <section class="home container" id="home">
+    <!-- Home Image -->
+    <img src="./assets/img/home-bg.jpg" alt="Home Background" class="home-img" />
+    <!-- Home Text -->
+    <div class="home-text">
+      <h1>Play with us</h1>
+      <p>8 games available</p>
+    </div>
+  </section>
+  <!-- Home End -->
+  <!-- Popular Section Start -->
+  <section class="popular container" id="popular">
+    <div class="heading">
+      <h2 class="heading-title">Popular Games</h2>
+
+
+      <!-- Swiper Buttons -->
+      <div class="swiper-btn">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <!-- content -->
-      <div class="popular-content swiper">
-        <div class="swiper-wrapper">
-          <!-- Games Box 1 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/tetris-1.jpeg"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Tetris</h2>
-                <span class="game-type">Puzzle</span>
-                <a href="./Games/tetr.js/index.html" class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+    </div>
+    <!-- content -->
+    <div class="popular-content swiper">
+      <div class="swiper-wrapper">
+        <!-- Games Box 1 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/tetris-1.jpeg" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Tetris</h2>
+              <span class="game-type">Puzzle</span>
+              <a href="./Games/tetr.js/index.html" class="play-btn pl-btn"><i class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 2 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/snake-1.jpeg"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Snake</h2>
-                <span class="game-type">Arcade</span>
-                <a
-                  href="./Games/JavaScript-Snake/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+        <!-- Games Box 2 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/snake-1.jpeg" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Snake</h2>
+              <span class="game-type">Arcade</span>
+              <a href="./Games/JavaScript-Snake/index.html" class="play-btn pl-btn"><i
+                  class="bx bx-right-arrow"></i></a>
             </div>
           </div>
+        </div>
 
 
-          
-          <!-- Games Box 3 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/tower-defense.jpeg"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Tower Defense</h2>
-                <span class="game-type">strategy</span>
-                <a
-                  href="./Games/tower-defense/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
-            </div>
-          </div>
 
-          <!-- Games Box 4 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/demineur.png"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Minesweeper</h2>
-                <span class="game-type">strategy</span>
-                <a href="./Games/DEMINEUR/demineur.html" class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        <!-- Games Box 3 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/tower-defense.jpeg" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Tower Defense</h2>
+              <span class="game-type">strategy</span>
+              <a href="./Games/tower-defense/index.html" class="play-btn pl-btn"><i class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 5 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/tic-tac-toe.png"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Tic Tac Toe</h2>
-                <span class="game-type">strategy</span>
-                <a
-                  href="./Games/Tic-Tac-Toe-AI/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+
+        <!-- Games Box 4 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/demineur.png" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Minesweeper</h2>
+              <span class="game-type">strategy</span>
+              <a href="./Games/DEMINEUR/demineur.html" class="play-btn pl-btn"><i class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 6 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/pac-man-1.png"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Pac Man</h2>
-                <span class="game-type">Arcade</span>
-                <a
-                  href="./Games/Javascript-Pacman/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+        <!-- Games Box 5 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/tic-tac-toe.png" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Tic Tac Toe</h2>
+              <span class="game-type">strategy</span>
+              <a href="./Games/Tic-Tac-Toe-AI/index.html" class="play-btn pl-btn"><i class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 7 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/rock-paper-scissors.png"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Rock Paper Scissors</h2>
-                <span class="game-type">strategy</span>
-                <a
-                  href="./Games/css-rock-paper-scissors/dist/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+        <!-- Games Box 6 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/pac-man-1.png" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Pac Man</h2>
+              <span class="game-type">Arcade</span>
+              <a href="./Games/Javascript-Pacman/index.html" class="play-btn pl-btn"><i
+                  class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 8 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/chess.jpeg"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Chess</h2>
-                <span class="game-type">strategy</span>
-                <a
-                  href="./Games/cheap-ai-chess/dist/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+        <!-- Games Box 7 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/rock-paper-scissors.png" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Rock Paper Scissors</h2>
+              <span class="game-type">strategy</span>
+              <a href="./Games/css-rock-paper-scissors/dist/index.html" class="play-btn pl-btn"><i
+                  class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 9 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/planet-defense.jpeg"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">Planet Defense</h2>
-                <span class="game-type">Action</span>
-                <a
-                  href="./Games/js-planet-defense-game/dist/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+        <!-- Games Box 8 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/chess.jpeg" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Chess</h2>
+              <span class="game-type">strategy</span>
+              <a href="./Games/cheap-ai-chess/dist/index.html" class="play-btn pl-btn"><i
+                  class="bx bx-right-arrow"></i></a>
             </div>
           </div>
-          <!-- Games Box 10 -->
-          <div class="swiper-slide">
-            <div class="game-box">
-              <img
-                src="./assets/img/games/cube.jpeg"
-                alt="Tetris"
-                class="game-box-img"
-              />
-              <div class="box-text">
-                <h2 class="game-title">The Cube</h2>
-                <span class="game-type">strategy</span>
-                <a
-                  href="./Games/the-cube/dist/index.html"
-                  class="play-btn pl-btn"
-                  ><i class="bx bx-right-arrow"></i
-                ></a>
-              </div>
+        </div>
+        <!-- Games Box 9 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/planet-defense.jpeg" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">Planet Defense</h2>
+              <span class="game-type">Action</span>
+              <a href="./Games/js-planet-defense-game/dist/index.html" class="play-btn pl-btn"><i
+                  class="bx bx-right-arrow"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Games Box 10 -->
+        <div class="swiper-slide">
+          <div class="game-box">
+            <img src="./assets/img/games/cube.jpeg" alt="Tetris" class="game-box-img" />
+            <div class="box-text">
+              <h2 class="game-title">The Cube</h2>
+              <span class="game-type">strategy</span>
+              <a href="./Games/the-cube/dist/index.html" class="play-btn pl-btn"><i class="bx bx-right-arrow"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <footer class="copyright">
-      <p>&#169; Udlab All Right Reserved - 2023</p>
-    </footer>
-    <!-- Popular Section Start -->
-    <!-- Link to JS -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/swiper-js.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    </div>
+  </section>
+  <footer class="copyright">
+    <p>&#169; Udlab All Right Reserved - 2023</p>
+  </footer>
+  <!-- Popular Section Start -->
+  <!-- Link to JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/swiper-js.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
